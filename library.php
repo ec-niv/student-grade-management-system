@@ -9,10 +9,14 @@ if (!isset($_SESSION["user_id"])) {
 
 <!DOCTYPE html>
 <html>
-<head><title>Library</title></head>
+<head><title>Library ABC</title></head>
 <body>
     <h2>Library</h2>
     <p>This is a placeholder for your library content. You can fill it with books, articles, or other resources.</p>
+    <ul>
+        <li><a href="crud_genre.php">Genre</a></li>
+        <li><a href="crud_books.php">Books</a></li>
+    </ul>
     <a href="dashboard.php">Back to Dashboard</a>
 </body>
-</html>
+</html>  
